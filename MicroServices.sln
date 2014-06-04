@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServices.Client", "MicroServices.Client\MicroServices.Client.csproj", "{C206A4B8-6D17-4C67-8376-8EE3CDBFC4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServices.Server", "MicroServices.Server\MicroServices.Server.csproj", "{BAA671AB-9B2C-4A45-A6F2-9CDDD02A5B10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServices.Contracts", "MicroServices.Contracts\MicroServices.Contracts.csproj", "{75F58B63-D1C7-4459-B1E2-80E0C61881B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroServices.Proxy", "MicroServices.Proxy\MicroServices.Proxy.csproj", "{219BDE8E-68A8-4F6A-B12C-72E457342636}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C206A4B8-6D17-4C67-8376-8EE3CDBFC4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C206A4B8-6D17-4C67-8376-8EE3CDBFC4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C206A4B8-6D17-4C67-8376-8EE3CDBFC4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C206A4B8-6D17-4C67-8376-8EE3CDBFC4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAA671AB-9B2C-4A45-A6F2-9CDDD02A5B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAA671AB-9B2C-4A45-A6F2-9CDDD02A5B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAA671AB-9B2C-4A45-A6F2-9CDDD02A5B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAA671AB-9B2C-4A45-A6F2-9CDDD02A5B10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75F58B63-D1C7-4459-B1E2-80E0C61881B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75F58B63-D1C7-4459-B1E2-80E0C61881B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75F58B63-D1C7-4459-B1E2-80E0C61881B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75F58B63-D1C7-4459-B1E2-80E0C61881B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{219BDE8E-68A8-4F6A-B12C-72E457342636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{219BDE8E-68A8-4F6A-B12C-72E457342636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{219BDE8E-68A8-4F6A-B12C-72E457342636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{219BDE8E-68A8-4F6A-B12C-72E457342636}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
